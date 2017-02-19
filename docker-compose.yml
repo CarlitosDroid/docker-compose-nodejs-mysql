@@ -1,0 +1,14 @@
+version: '2'
+services:
+  security:
+    build: ./security-service
+    ports:
+     - "8123:8123"
+    depends_on:
+     - db
+    environment:
+     - DATABASE_HOST=db
+    volumes:
+     - ./security-service/api:/app/api
+  db:
+    build: ./test-database
