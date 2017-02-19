@@ -11,5 +11,5 @@ We are going to use 'MySQL' like our specialized database and 'Node.js' as our p
 </p>
 
 <p align="center">
-    <img src="Screenshots/mysql.png" alt="docker_compose" width="50%"/>
+    <img src="Screenshots/mysql.jpg" alt="docker_compose" width="50%"/>
 </p>
