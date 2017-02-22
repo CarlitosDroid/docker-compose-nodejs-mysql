@@ -1,15 +1,15 @@
-#DOCKER-COMPOSE-NODEJS-EXPRESS-MYSQL
-In this sample, we will look at the functionality provided by 'Docker Compose' for defining and running multi-container Docker applications.
-
-We are going to use 'MySQL' like our specialized database and 'Node.js' as our platform for creating highly performant web applications.
-
-
-#ScreenShots
-
-<p align="center">
-    <img src="Screenshots/docker_nodejs.png" alt="docker_compose" width="50%"/>
-</p>
-
-<p align="center">
-    <img src="Screenshots/mysql.jpg" alt="docker_compose" width="50%"/>
-</p>
+ 
+ Run:
+ 
+docker-compose up
+ 
+ wait until see the follow message in console:
+ 
+ Version: '5.7.17'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)****
+ 
+ then: then cancel the containers using Ctrl+C
+ 
+ and run again:
+ 
+ docker-compose up
+  

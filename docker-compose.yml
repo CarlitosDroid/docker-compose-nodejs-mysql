@@ -8,7 +8,10 @@ services:
      - db
     environment:
      - DATABASE_HOST=db
-    volumes:
-     - ./sample-service/api:/app/api
   db:
     build: ./database-service
+
+
+
+
+

@@ -12,8 +12,8 @@ DataBaseHandler.prototype.createConnection = function () {
 
     this.connection = mysql.createConnection({
         host: process.env.DATABASE_HOST || '127.0.0.1',
-        user: 'root',
-        password: '',
+        user: 'users_service',
+        password: '123',
         database: 'CHIRINOS',
 	    port: 3306
     });
