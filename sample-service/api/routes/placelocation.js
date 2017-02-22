@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
         if(result[0].length== 0){
             res.status(404).send({
                 status : "ERROR",
-                message: "No existe lugar en Base de Datos"
+                message: "No existe lugar en Base de Datos :D"
             });
         }else{
             res.status(202).send({
