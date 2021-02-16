@@ -13,3 +13,20 @@ We are going to use 'MySQL' like our specialized database and 'Node.js' as our p
 <p align="center">
     <img src="Screenshots/mysql.jpg" alt="docker_compose" width="50%"/>
 </p>
+
+### RUN THE PROJECT
+`docker-compose up`
+
+### INSPECT YOUR MYSQL CONTAINER(to see your database)
+1. docker ps
+2. docker exec -it YOUR_MYSQL_CONTAINER_ID bash
+3. mysql -u root -p
+4. put the password(123)
+5. enter 
+
+INSIDE THE DATABASE SERVER
+``` 
+    1. use CHIRINOS;
+    2. show tables;
+    3. describe EMPLOYEE;
+```
