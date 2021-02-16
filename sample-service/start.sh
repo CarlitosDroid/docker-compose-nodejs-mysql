@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 60
+sleep 40
 
 cd /app/api
 npm install

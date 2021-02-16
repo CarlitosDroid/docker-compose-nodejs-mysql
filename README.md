@@ -26,3 +26,6 @@ We are going to use 'MySQL' like our specialized database and 'Node.js' as our p
 6. use CHIRINOS;
 7. show tables;
 8. describe EMPLOYEE;
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
