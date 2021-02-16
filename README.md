@@ -23,10 +23,6 @@ We are going to use 'MySQL' like our specialized database and 'Node.js' as our p
 3. mysql -u root -p
 4. put the password(123)
 5. enter 
-
-INSIDE THE DATABASE SERVER
-``` 
-    1. use CHIRINOS;
-    2. show tables;
-    3. describe EMPLOYEE;
-```
+6. use CHIRINOS;
+7. show tables;
+8. describe EMPLOYEE;
